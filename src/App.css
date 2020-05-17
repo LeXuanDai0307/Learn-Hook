@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  background-color: darkgray;
+  margin: 36px 0;
+}
+
+.app__column {
+  flex: 1;
+  padding: 0 32px;
+}
+
+.app__column-left {
+  background-color: aquamarine;
+  align-items: center;
+}
+
+.app__column-right {
+  background-color: blanchedalmond;
+  display: inline-flex;
+}
+
+.app__cart {
+  width: 100%;
+}
